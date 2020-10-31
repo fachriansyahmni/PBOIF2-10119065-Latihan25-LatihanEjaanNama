@@ -13,7 +13,7 @@ public class PBOIF210119065Latihan25LatihanEjaanNama {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Masukkan nama yang ingin di eja: ");
-        String nama = sc.next();
+        String nama = sc.nextLine();
         
         System.out.println("Ejaan untuk \"" + nama + "\" adalah : ");
         char[] huruf = nama.toCharArray();
